@@ -8,7 +8,7 @@ The runtime complexity of this block of code would be `O(n^3)` (polynomial), whe
 
 b)
 
-The runtime complexity of this block of code would be `O(n log n)` (linearithmic), where `n` is the input size. This is because the outer `for` loop runs `n` times, for a runtime complexity of `O(n)`. Meanwhile, the value of `j` in the inner `while` loop is doubling rather than incremening, resulting in a runtime complexity of `O(log )`. For nested loops, we want to multiply the runtime complexities, so we would get a combined runtime complexity of `O(n log n)`.
+The runtime complexity of this block of code would be `O(n log n)` (linearithmic), where `n` is the input size. This is because the outer `for` loop runs `n` times, for a runtime complexity of `O(n)`. Meanwhile, the value of `j` in the inner `while` loop is doubling rather than incrementing, resulting in a runtime complexity of `O(log n)`. For nested loops, we want to multiply the runtime complexities, so we would get a combined runtime complexity of `O(n log n)`.
 
 c)
 

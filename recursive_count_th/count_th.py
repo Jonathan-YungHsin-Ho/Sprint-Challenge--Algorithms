@@ -16,7 +16,10 @@ def count_th(word):
     def recursive_counter(word, count=0):
         if len(word) <= 1:
             return count
-        elif word[0] == 't' and word[1] == 'h':
+        elif word[0:2] == 'th':
             count += 1
-        return recursive_counter(word[1:], count)
+            return recursive_counter(word[2:], count)
+        else:
+            return recursive_counter(word[1:], count)
+
     return recursive_counter(word)
